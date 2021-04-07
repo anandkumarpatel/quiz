@@ -260,11 +260,16 @@ class App extends Component {
           }
 
           {this.allDone() ? this.final() : null}
+          <div className="sec">
 
-          <p>Snapchat: dj.faze</p>
-          <p>Twitter: dj.faze</p>
-          <p>Snapchat: dj.faze</p>
-          <p>Snapchat: dj.faze</p>
+            <br /><a href="https://twitter.com/akadjfaze" > twitter</a>
+            <br /><a href="https://www.youtube.com/channel/UC8L_dV70c8I7HRm2Xyj3yng" > youtube </a>
+            <br /><a href="snapchat.com/add/dj.faze" > snapchat </a>
+            <br /><a href="https://www.linkedin.com/in/anandkumarpatel/" > linkedin </a>
+            <br /><a href="https://www.instagram.com/akadjfaze/" > instagram </a>
+            <br /><a href="https://soundcloud.com/dj-faze" > soundcloud </a>
+
+          </div>
         </Container>
       </div>
     );
