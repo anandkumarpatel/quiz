@@ -262,12 +262,13 @@ class App extends Component {
           {this.allDone() ? this.final() : null}
           <div className="sec">
 
-            <br /><a href="https://twitter.com/akadjfaze" > twitter</a>
-            <br /><a href="https://www.youtube.com/channel/UC8L_dV70c8I7HRm2Xyj3yng" > youtube </a>
-            <br /><a href="snapchat.com/add/dj.faze" > snapchat </a>
-            <br /><a href="https://www.linkedin.com/in/anandkumarpatel/" > linkedin </a>
-            <br /><a href="https://www.instagram.com/akadjfaze/" > instagram </a>
-            <br /><a href="https://soundcloud.com/dj-faze" > soundcloud </a>
+            <br />
+            <a href="https://twitter.com/akadjfaze" className="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/channel/UC8L_dV70c8I7HRm2Xyj3yng" className="fa fa-youtube"></a>
+            <a href="https://snapchat.com/add/dj.faze" className="fa fa-snapchat-ghost"></a>
+            <a href="https://www.linkedin.com/in/anandkumarpatel/" className="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/akadjfaze/" className="fa fa-instagram"></a>
+            <a href="https://soundcloud.com/dj-faze" className="fa fa-soundcloud"></a>
 
           </div>
         </Container>
