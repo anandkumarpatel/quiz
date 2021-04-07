@@ -211,7 +211,6 @@ class App extends Component {
     const part = this.state[partName]
     return (
       <div key={partName}>
-        <hr />
         <div className="sec">
           <p>{part.question}</p>
           {this.isValid(partName) ? this.answer(partName) : this.input(partName)}
@@ -225,7 +224,6 @@ class App extends Component {
   final() {
     return (
       <div key="final">
-        <hr />
         <div className="sec">
           <p>Go back and look at the CaPiTalS</p>
           <p>also, bob has the key...</p>
