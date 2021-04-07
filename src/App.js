@@ -18,8 +18,13 @@ class App extends Component {
       },
       k: {
         cur: "",
-        question: "In the video on my youtube channel, the snapchat developer is a bit of a prod ?",
-        expects: "cowboY"
+        question: "In the video on my youtube channel, event-driven architecture can promote rapid what?",
+        expects: "prototYping"
+      },
+      q: {
+        cur: "",
+        question: "Find Alejandro. Ask him what country he is from",
+        expects: "argentina"
       },
       d: {
         cur: "",
@@ -33,7 +38,7 @@ class App extends Component {
       },
       c: {
         cur: "",
-        question: "The two precious stones on the sides of nancy's wedding ring a a reference to houses in?",
+        question: "The two precious stones on the sides of nancy's wedding ring a reference to houses in?",
         expects: "hOgwarts"
       },
       m: {
@@ -45,6 +50,11 @@ class App extends Component {
         cur: "",
         question: "Find Anton ask what country he is from",
         expects: "ukrainE"
+      },
+      r: {
+        cur: "",
+        question: "Find Suhag and Purvi and ask them what town they are from",
+        expects: "mcrae"
       },
       h: {
         cur: "",
@@ -66,6 +76,11 @@ class App extends Component {
         question: "Find bob and get his real name",
         expects: "Ashish"
       },
+      a: {
+        cur: "",
+        question: "My facebook profile picture is from what country",
+        expects: "ireland"
+      },
       l: {
         cur: "",
         question: "On my twitter, I got a busted my tire on the way to what?",
@@ -78,28 +93,13 @@ class App extends Component {
       },
       o: {
         cur: "",
-        question: "My mixes on soundcloud foo are measured in",
+        question: "My mixes on soundcloud are measured in",
         expects: "Degrees"
       },
       n: {
         cur: "",
-        question: "My Linkin shows I enjoy distributing information with joyful",
-        expects: "newsletter"
-      },
-      q: {
-        cur: "",
-        question: "Find Alejandro ask him what country he is from",
-        expects: "argentina"
-      },
-      r: {
-        cur: "",
-        question: "Find Suhag and Purvi and ask them what town they are from",
-        expects: "mcrae"
-      },
-      a: {
-        cur: "",
-        question: "My facebook profile picture is from what country",
-        expects: "ireland"
+        question: "My Linkedin shows I enjoy distributing information with joyful",
+        expects: "newslEtter"
       },
     }
     this.update = this.update.bind(this)
@@ -260,6 +260,11 @@ class App extends Component {
           }
 
           {this.allDone() ? this.final() : null}
+
+          <p>Snapchat: dj.faze</p>
+          <p>Twitter: dj.faze</p>
+          <p>Snapchat: dj.faze</p>
+          <p>Snapchat: dj.faze</p>
         </Container>
       </div>
     );
