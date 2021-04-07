@@ -112,8 +112,8 @@ class App extends Component {
 
   componentDidMount() {
     if (!this.socket) {
-      // this.socket = socketIOClient(`${window.location.href}`)
-      this.socket = socketIOClient(`http://localhost:4001`)
+      this.socket = socketIOClient(`${window.location.href}`)
+      // this.socket = socketIOClient(`http://localhost:4001`)
       this.socket.on("completed", (e) => {
         if (e.from !== this.socket.id) {
           return this.changer(e.partName)(e)
