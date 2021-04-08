@@ -13,32 +13,32 @@ class App extends Component {
     this.state = {
       b: {
         cur: "",
-        question: "What's my favorite Indian restaurant in San Francisco",
+        question: "What's my favorite Indian restaurant in San Francisco?",
         expects: "Mela"
       },
       k: {
         cur: "",
-        question: "In the video on my youtube channel, event-driven architecture can promote rapid what?",
+        question: "In the video on my Youtube channel, event-driven architecture can promote rapid what?",
         expects: "prototYping"
       },
       q: {
         cur: "",
-        question: "Find Alejandro. Ask him what country he is from",
+        question: "Find Alejandro. Ask him what country he is from.",
         expects: "argentina"
       },
       d: {
         cur: "",
-        question: "My second instagram post contains glasses made by what company?",
+        question: "My second Instagram post contains glasses made by what company?",
         expects: "snaPchat"
       },
       i: {
         cur: "",
-        question: "Find Jorge and ask him what people remember about him the most",
+        question: "Find Jorge and adk him what he is known for.",
         expects: "laugH"
       },
       c: {
         cur: "",
-        question: "The two precious stones on the sides of nancy's wedding ring a reference to houses in?",
+        question: "The two precious stones on the sides of Nancy's wedding ring refer to houses in school?",
         expects: "hOgwarts"
       },
       m: {
@@ -48,12 +48,12 @@ class App extends Component {
       },
       p: {
         cur: "",
-        question: "Find Anton ask what country he is from",
+        question: "Find Anton. Ask him what country he is from.",
         expects: "ukrainE"
       },
       r: {
         cur: "",
-        question: "Find Suhag and Purvi and ask them what town they are from",
+        question: "Find Suhag and Purvi and ask them what town they are from.",
         expects: "mcrae"
       },
       h: {
@@ -63,27 +63,27 @@ class App extends Component {
       },
       e: {
         cur: "",
-        question: "What's the name of my families bird",
+        question: "What is the name of my family's pet bird?",
         expects: "Ramu"
       },
       g: {
         cur: "",
-        question: "What color shirt is my snapchat avatar wearing?",
+        question: "What color shirt is my Snapchat avatar wearing?",
         expects: "whitE"
       },
       j: {
         cur: "",
-        question: "Find bob and get his real name",
+        question: "Find bob. What is his real name?",
         expects: "Ashish"
       },
       a: {
         cur: "",
-        question: "My facebook profile picture is from what country",
+        question: "In what country was my Facebook profile picture?",
         expects: "ireland"
       },
       l: {
         cur: "",
-        question: "On my twitter, I got a busted my tire on the way to what?",
+        question: "I got a flat tire on the way to what meetup? (Check my Twitter)",
         expects: "doCker"
       },
       f: {
@@ -93,13 +93,13 @@ class App extends Component {
       },
       o: {
         cur: "",
-        question: "My mixes on soundcloud are measured in",
+        question: "My mixes on Soundcloud are measured in?",
         expects: "Degrees"
       },
       n: {
         cur: "",
-        question: "My Linkedin shows I enjoy distributing information with joyful",
-        expects: "newslEtter"
+        question: "I like sharing knowledge via fun what? (check my LinkedIn)",
+        expects: "newslEtters"
       },
     }
     this.update = this.update.bind(this)
@@ -240,12 +240,12 @@ class App extends Component {
             <h1>You want the shoes?</h1>
             <p>
               You have 1 hour to discover the code and find the key!
-              <br />Lets see if Nancy's Family & Friends have what it takes!
+              <br />Let's see if Nancy's Family & Friends have what it takes!
               <br />Type the answers to the questions in the boxes.
-              <br />If you typed the answer correctly, the text will be locked in.
-              <br />Answers can be typed in on any phone and in any order.
-              <br />The number on the right tell you how long the word is.
-
+              <br />If you type the answer correctly, the box will turn green.
+              <br />Answers can be entered on any phone and in any order.
+              <br />The number on the right tells you how long the word is.
+              <br />
               Good luck!
             </p>
           </div>
