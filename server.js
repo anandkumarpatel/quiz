@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const Sheets = require('./sheets.js')
+const https = require('https')
 
 const port = process.env.PORT || 4001;
 
@@ -65,6 +66,22 @@ async function main() {
 
   server.listen(port, () => console.log(`Listening on port http://localhost:${port}`));
 }
+
+setInterval(() => {
+  console.log('-healthcheck start')
+  https
+    .get('https://shoes.anandkumarpatel.com/ping', (resp) => {
+      // A chunk of data has been recieved.
+      resp.on('data', () => { })
+
+      resp.on('end', () => {
+        console.log('-healthcheck pass')
+      })
+    })
+    .on('error', (err) => {
+      console.log('**** healthcheck fail ' + err.message)
+    })
+}, 900000)
 
 main().catch(console.error)
 
