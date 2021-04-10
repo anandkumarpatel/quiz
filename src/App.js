@@ -13,92 +13,92 @@ class App extends Component {
     this.state = {
       b: {
         cur: "",
-        question: "What's my favorite Indian restaurant in San Francisco?",
+        question: "what's my favorite indian restaurant in san francisco?",
         expects: "Mela"
       },
       k: {
         cur: "",
-        question: "In the video on my Youtube channel, event-driven architecture can promote rapid what?",
+        question: "in the video on my youtube channel, event-driven architecture can promote rapid what?",
         expects: "prototYping"
       },
       q: {
         cur: "",
-        question: "Find Alejandro. Ask him what country he is from.",
+        question: "find alejandro. ask him what country he is from.",
         expects: "argentina"
       },
       d: {
         cur: "",
-        question: "My second Instagram post contains glasses made by what company?",
+        question: "my second instagram post contains glasses made by what company?",
         expects: "snaPchat"
       },
       i: {
         cur: "",
-        question: "Find Jorge and adk him what he is known for.",
+        question: "find jorge and adk him what he is known for.",
         expects: "laugH"
       },
       c: {
         cur: "",
-        question: "The two precious stones on the sides of Nancy's wedding ring refer to houses in school?",
+        question: "the two precious stones on the sides of nancy's wedding ring refer to houses in school?",
         expects: "hOgwarts"
       },
       m: {
         cur: "",
-        question: "Find my elementary school friend and get his last name.",
+        question: "find my elementary school friend and get his last name.",
         expects: "kesayaN"
       },
       p: {
         cur: "",
-        question: "Find Anton. Ask him what country he is from.",
+        question: "find anton. ask him what country he is from.",
         expects: "ukrainE"
       },
       r: {
         cur: "",
-        question: "Find Suhag and Purvi and ask them what town they are from.",
+        question: "find suhag and purvi and ask them what town they are from.",
         expects: "mcrae"
       },
       h: {
         cur: "",
-        question: "What is my DJ name?",
+        question: "what is my dj name?",
         expects: "fAze"
       },
       e: {
         cur: "",
-        question: "What is the name of my family's pet bird?",
+        question: "what is the name of my family's pet bird?",
         expects: "Ramu"
       },
       g: {
         cur: "",
-        question: "What color shirt is my Snapchat avatar wearing?",
+        question: "what color shirt is my snapchat avatar wearing?",
         expects: "whitE"
       },
       j: {
         cur: "",
-        question: "Find bob. What is his real name?",
+        question: "find bob. what is his real name?",
         expects: "Ashish"
       },
       a: {
         cur: "",
-        question: "In what country was my Facebook profile picture?",
+        question: "in what country was my facebook profile picture?",
         expects: "ireland"
       },
       l: {
         cur: "",
-        question: "I got a flat tire on the way to what meetup? (Check my Twitter)",
+        question: "i got a flat tire on the way to what meetup? (check my twitter)",
         expects: "doCker"
       },
       f: {
         cur: "",
-        question: "What fraternity was I in?",
+        question: "what fraternity was i in?",
         expects: "aiO"
       },
       o: {
         cur: "",
-        question: "My mixes on Soundcloud are measured in?",
+        question: "my mixes on soundcloud are measured in?",
         expects: "Degrees"
       },
       n: {
         cur: "",
-        question: "I like sharing knowledge via fun what? (check my LinkedIn)",
+        question: "i like sharing knowledge via fun what? (check my linkedin)",
         expects: "newslEtters"
       },
     }
