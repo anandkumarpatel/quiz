@@ -1,7 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background: #efeeee;
+  background: #b3bcc1;
+  color: #5a2b21;
   padding-top: 2vh;
   padding-bottom: 2vh;
   height: 100vh;
@@ -9,7 +10,7 @@
 }
 
 .answer {
-  color: gold;
-  background-color: green;
+  color: #cab7aa;
+  background-color: #3e4b42;
   font-size: 2em;
 }
