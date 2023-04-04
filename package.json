@@ -1,6 +1,7 @@
 {
   "name": "quiz",
   "version": "0.1.0",
+  "homepage": "https://anandkumarpatel.github.io/quiz",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.3",
@@ -14,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "git push heroku master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
