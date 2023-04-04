@@ -84,6 +84,3 @@ setInterval(() => {
 }, 900000)
 
 main().catch(console.error)
-
-
-
